@@ -82,7 +82,8 @@ header>div {
 .contact-links-header .contact-link-header:focus,
 .contact-links-footer .contact-link-footer:hover,
 .contact-links-footer .contact-link-footer:focus,
-.contact-link-header-icon:hover {
+.contact-link-header-icon:hover,
+.contact-link-header-icon:focus {
     color: var(--brand-color);
     --color4: var(--brand-color);
 }
@@ -440,7 +441,8 @@ header>div>.logo {
     margin-top: 20px;
 }
 
-.footer-section-icons li:hover {
+.footer-section-icons li:hover,
+.footer-section-icons li:focus {
     background: #2196F3;
     cursor: pointer;
 }
